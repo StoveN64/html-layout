@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 20px;
+}
+
+
+.boxShape {
+    width: 100%;
+    border: 4px solid;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+
+.purpleShape {
+    height: 150px;
+    width: 50px;
+    display: inline-block;
+    background-color: rgba(103, 9, 192, 0.911)
+}
+
+.greenShape {
+    height: 200px;
+    width:400px ;
+    margin: 0 50px;
+    display: inline-block;
+    background-color:rgb(2, 163, 2)
+}
+
+.circle {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: rgb(57, 182, 231);
+    display: inline-block;
+}
+.dots {
+    width: 100%;
+    border: 4px dotted;
+    padding: 70px;
+    box-sizing: border-box;
+    margin-top: 15px;
+}
+
+.whiteishShape {
+    background-color: blanchedalmond;
+    height: 200px;
+    width: 100%;
+    -webkit-box-shadow: 9px 7px 16px 5px rgba(0,0,0,0.6); 
+box-shadow: 9px 7px 16px 5px rgba(0,0,0,0.6);
+}
+
+.blankBox {
+    margin: 20px auto;
+    width: 50%;
+    border: 1px solid rgb(170, 164, 164);
+    padding: 100px;
+    box-sizing: border-box;
+    background-color: white;
+    -webkit-box-shadow: 11px 12px 6px -6px rgba(0,0,0,0.62); 
+box-shadow: 11px 12px 6px -6px rgba(0,0,0,0.62);
+}
+
+h1 {
+    text-align: center;
+    width: 100%;
+    color: darkblue;
+    letter-spacing: 10px;
+}
